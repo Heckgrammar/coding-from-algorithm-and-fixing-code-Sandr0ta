@@ -14,10 +14,10 @@ Do the coding task in C#
         while (!validChoice)
         {
             Console.Write("Enter a start year: ");
-            startYear = int.Parse(Console.ReadLine());
+              startYear = Convert.ToInt32((Console.ReadLine());
             
             Console.Write("Enter an end year: ");
-            endYear = int.Parse(Console.ReadLine());
+              endYear = Convert.ToInt32((Console.ReadLine());
 
             if (startYear >= endYear)
             {
